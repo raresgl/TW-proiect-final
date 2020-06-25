@@ -1,0 +1,13 @@
+II  2 (1p) - La intrarea pe pagina, sa existe minim 2 sectiuni cu text, in care textul apare cuvant cu cuvant intr-o "animatie" JavaScript (la fiecare treime de secunda apare cate un cuvant din text). 
+
+I  11 (0.5p) - In pagina va exista un input de tip text si un buton cu textul "seteaza culoare background". La click pe buton, se va prelua culoarea din input si daca e valida se va asocia backgroundului, daca nu, se va da un alert cu mesajul "Culoare invalida".
+
+III 7 (1.5p) - Crearea unui mod custom de scrollare prin pagina
+
+I   6 (0.5p) - La intrarea pe pagina sa se afiseze cate ore, minute, secunde mai sunt pana la finalul sesiunii (sau o alta data calendaristica). Sa se actualizeze aceasta informatie la fiecare secunda.a
+
+I   7 (0.5p) - La intrarea pe pagina, intr-o sectiune speciala se va afisa o prezicere aleatoare (dintr-un vector de siruri). De exemplu: "O sa treci toate examenele!", "O sa ai o vara frumoasa!", "O sa te ciupeasca un tantar!" etc.
+
+III 15 (1.5p) - Crearea unui meniu custom care sa apara la click-dreapta in pagina.
+
+I   8 (0.5p) - Va exista un buton in pagina, cu textul "ascunde imagini". La click pe el, orice element de tip imagine de oriunde din pagina, dispare. Textul butonul va fi acum "afiseaza imagini". La click pe el se reafiseaza inapoi toate imaginile, iar textul lui redevine "ascunde imagini".

@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Titlu -->
+    <title>Pet Hotel</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Pet Hotel, cel mai nou hotel pentru animale de companie din Bucuresti.">
+    <meta name="keywords" content="pet hotel, hotel animale">
+
+    <!-- Icon -->
+    <link rel="shortcut icon" type="image/png" href="img/logo2.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/390063d03a.js"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:400,700&display=swap" rel="stylesheet">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- AJAX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+</head>
+<body>
+    <!-- Start Navbar -->
+    <header id="navbar-html" class="fixed-top shadow">
+        <nav class="navbar container navbar-expand-lg">
+            <a class="navbar-brand" href="">Pet Hotel</a>
+            <button class="navbar-toggler p-0 m-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                <span id='hamburger-d1'>
+                    <span class="hamb">
+                        <span class="box">
+                            <span class="line"></span>
+                        </span>
+                    </span>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center pt-4 pt-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link smooth-scroll closex" href="#acasa">Acasa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smooth-scroll closex" href="#servicii">Servicii</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smooth-scroll closex" href="#program">Program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smooth-scroll closex" href="#preturi">Preturi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smooth-scroll closex" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item nav-lang">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- End Navbar -->
+
+    <!-- Start task III 7 -->
+    <span class="button-pos">
+        <a id="scrollBut" onclick="scrollNext()" class="hero-btn" href="">Am citit</a>
+    </span>
+    <!-- End task III 7 -->
+
+
+    <span class="button-pos-2 mb-5">
+        <p id="ascundeImg" onclick="ascundeImg()" class="hero-btn">Ascunde</p>
+    </span>
+    
+    <!-- Start Hero -->
+    <section id="acasa" class="h-100 bg-hero text-center hero">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 mx-auto my-auto">
+
+                    <!-- Start task II 2 -->
+                    <!-- Prima sectiune -->
+                    <p class="hero-p">
+                        <span id="word1" style="visibility:hidden">BINE</span> 
+                        <span id="word2" style="visibility:hidden">ATI</span>
+                        <span id="word3" style="visibility:hidden">VENIT</span> 
+                        <span id="word4" style="visibility:hidden">LA</span>
+                    </p>
+                    <!-- A doua sectiuna -->
+                    <h1 class="hero-h1">
+                        <span id="word5" style="visibility:hidden">PET</span> 
+                        <span id="word6" style="visibility:hidden">HOTEL</span>
+                    </h1>
+                    <!-- End task II 2 -->
+
+                    <p class="hero-slogan">Primul hotel pentru animale de companie din Bucuresti.</p>
+
+                    <!-- Start task I 7 -->
+                    <p id="mesaj" class="hero-slogan mb-5"></p>
+                    <!-- End task I 7 -->
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </section>  
+    <!-- End Hero -->
+
+    <!-- Start task III 15 -->
+    <div id="context-menu">
+        <div class="item">
+            <a class="itemlink" href="" onclick="actiune1()" id="actiune1">
+                <i class="fas fa-home"></i> Acasa
+            </a>
+        </div>
+        <hr>
+        <div class="item" onClick="window.location.reload();">
+          <i class="fa fa-refresh"></i> Reincarca pagina
+        </div>
+        <div class="item">
+          <i class="fa fa-times"></i> Exit
+        </div>
+      </div>
+    <!-- End task III 15 -->
+
+    <!-- Start About -->
+    <section id="despre" class="about nav-margin">
+        <div class="container container-about">
+            <div class="row row-1">
+                <div class="col-12 text-center" data-aos="zoom-in">
+                    <h2 class="subtitle-1" id="titlu">Pet Hotel</h2>
+                    <p class="about-p">Scopul nostru este sa le oferim cele mai bune conditii posibile animalelor dumneavoastra. Tot ce facem este din pasiune, din dragoste pentru animale. Pentru acest scop am realizat un sejur cu servicii complete pentru companionul dumneavoastra.</p>
+                    <span class="about-icons">
+                        <i class="fas fa-paw fa-2x fa-1"></i>
+                    </span>
+                    <br>
+
+                    <!-- Start task I 11 -->
+                    <span>
+                        <input type="text" name="" id="culoare" class="input-schimbat-culoare" placeholder="Alege o culoare..."><br>
+                        <button class="buton-schimbat-culoare" onclick="schimbaCuloarea1()">Seteaza Culoare Background</button>
+                    </span>
+                    <!-- End task I 11 -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Start Servicii -->
+    <section id="servicii" class="servicii nav-margin">
+        <div class="container container-servicii">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="zoom-in">
+                    <h2 class="subtitle-2">Servicii</h2>
+                    <p class="servicii-p">Oferim servicii de calitate pentru animalul dumneavoastra de companie.</p>
+                    <span class="servicii-icons">
+                        <i class="fas fa-paw fa-2x fa-2"></i>
+                    </span>
+                </div>
+                <div class="col-12 col-md-4 text-center servicii-margin" data-aos="flip-right">
+                    <div class="servicii-cards">
+                        <div class="servicii-pad">
+                            <i class="fas fa-hotel fa-2x fa-2"></i>
+                        </div>
+                        <h3 class="servicii-cards-title">Cazare</h3>
+                        <p class="servicii-cards-p">Oferim cazare pentu prietenul dumneavoastra patruped, fie el catel sau pisica.</p>
+                        <a href="tel:0765 551 200" class="servicii-cards-btn">Rezervati</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 text-center servicii-margin" data-aos="fade-up">
+                    <div class="servicii-cards">
+                        <div class="servicii-pad">
+                            <i class="fas fa-cut fa-2x fa-2"></i>
+                        </div>
+                        <h3 class="servicii-cards-title">Salon</h3>
+                        <p class="servicii-cards-p">osmetica, ingrijire, spalat si periat pentru animalele dumneavoastra de companie.</p>
+                        <a href="tel:0765 551 200" class="servicii-cards-btn">Rezervati</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 text-center servicii-margin" data-aos="flip-left">
+                    <div class="servicii-cards">
+                        <div class="servicii-pad">
+                            <i class="fas fa-dog fa-2x fa-2"></i>
+                        </div>
+                        <h3 class="servicii-cards-title">Dresaj</h3>
+                        <p class="servicii-cards-p">Dresaj canin pentru companionul dumneavoastra.</p>
+                        <a href="tel:0765 551 200" class="servicii-cards-btn">Rezervati</a>
+                    </div>
+                </div>
+                <div class="col-12 text-center" data-aos="zoom-in">
+                    <span>
+                        <input type="text" name="" id="culoare2" class="input-schimbat-culoare" placeholder="Alege o culoare..."><br>
+                        <button class="buton-schimbat-culoare" onclick="schimbaCuloarea2()">Seteaza Culoare Background</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Servicii -->
+
+    <!-- Start Program -->
+    <section id="program" class="program nav-margin">
+        <div class="container container-program">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="zoom-in">
+                    <h2 class="subtitle-3">Program de Lucru</h2>
+                    <p class="program-p">Hotelul nostru din Bucuresti este inchis doar Duminica.</p>
+                    <span class="program-icons">
+                        <i class="fas fa-paw fa-2x fa-2"></i>
+                    </span>
+                </div>
+                <div class="col-12 col-md-6 text-center program-margin" data-aos="fade-up" data-aos-delay="100">
+                    <div class="program-cards">
+                        <div class="program-cards-pad">
+                            <h4 class="program-subtitle">Luni - Vineri</h4>
+                            <p class="program-hour">10.00</p>
+                            <p class="program-hour">-</p>
+                            <p class="program-hour">20.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 text-center program-margin" data-aos="fade-up" data-aos-delay="200">
+                    <div class="program-cards">
+                        <div class="program-cards-pad">
+                            <h4 class="program-subtitle">Sambata</h4>
+                            <p class="program-hour">10.00</p>
+                            <p class="program-hour">-</p>
+                            <p class="program-hour">16.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Program -->
+
+    <!-- Start Preturi -->
+    <section id="preturi" class="servicii nav-margin">
+        <div class="container container-servicii">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="zoom-in">
+                    <h2 class="subtitle-2">Preturi</h2>
+                    <p class="servicii-p">Lista completa de preturi este disponibila la hotel.</p>
+                    <span class="servicii-icons">
+                        <i class="fas fa-paw fa-2x fa-2"></i>
+                    </span>
+                </div>
+                <div class="col-md-6 text-center servicii-margin" data-aos="flip-right">
+                    <div class="preturi-cards">
+                        <div class="servicii-pad">
+                            <img id="img1" class="img-dim" src="img/dog.png" alt="">
+                        </div>
+                        <h3 class="servicii-cards-title">Catei</h3>
+                        <p class="servicii-cards-p">Cazare - 50 lei/ zi</p>
+                        <p class="servicii-cards-p">Tuns talie mica - 50 lei</p>
+                        <p class="servicii-cards-p">Tuns talie medie - 100 lei</p>
+                        <p class="servicii-cards-p">Tuns talie mare - 200 lei</p>
+                        <p class="servicii-cards-p">Dresaj - 50 lei/ sedinta</p>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center servicii-margin" data-aos="flip-left">
+                    <div class="preturi-cards">
+                        <div class="servicii-pad">
+                            <img id="img2" class="img-dim" src="img/cat.png" alt="">
+                        </div>
+                        <h3 class="servicii-cards-title">Pisici</h3>
+                        <p class="servicii-cards-p">Cazare - 50 lei/ zi</p>
+                        <p class="servicii-cards-p">Tuns talie mica - 20 lei</p>
+                        <p class="servicii-cards-p">Tuns talie medie - 70 lei</p>
+                        <p class="servicii-cards-p">Tuns talie mare - 100 lei</p>
+                        <p class="servicii-cards-p">Aranjat - 50 lei</p>
+                    </div>
+                </div>
+                
+                    </div>
+                </div>
+
+                <!-- Start task I 6 -->
+                <div class="col-12 text-center" data-aos="zoom-in">
+                    <span>
+                        <p class="servicii-p">Beneficitati de reduceri pana pe data de 18 iulie! Au mai ramas:</p>
+                        <h2 id="countdown" class="subtitle-2"></h2>
+                    </span>
+                </div>
+                <!-- End task I 6 -->
+
+                <div class="col-12 text-center" data-aos="zoom-in">
+                    <span>
+                        <input type="text" name="" id="culoare3" class="input-schimbat-culoare" placeholder="Alege o culoare..."><br>
+                        <button class="buton-schimbat-culoare mb-5" onclick="schimbaCuloarea3()">Seteaza Culoare Background</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Preturi -->
+
+    <!-- Start Contact -->
+    <section id="contact" class="about nav-margin">
+        <div class="container container-about">
+            <div class="row row-1">
+                <div class="col-12 text-center mb-5" data-aos="zoom-in">
+                    <h2 class="subtitle-1">Date de Contact</h2>
+                    <p class="about-p">Contactati-ne la telefon, pe Facebook sau pe Instagram.</p>
+                    <span class="about-icons">
+                        <i class="fas fa-palette fa-2x fa-1"></i>
+                    </span>
+                </div>
+                <div class="col-md-6 contact-margin text-center" data-aos="flip-right">
+                    <div class="contact-cards">
+                        <div class="servicii-pad">
+                            
+                        </div>
+                        <h3 class="contact-cards-title">Contact</h3>
+                        <a href="" class="contact-icons"><i class="fas fa-mobile-alt"></i></a>
+                        <p class="contact-cards-p">0720 000 000</p>
+                        <a href="" target="_blank" class="contact-icons"><i class="fab fa-facebook-f"></i></a>
+                        <p class="contact-cards-p">fb.com/pethotel</p>
+                        <a href="" target="_blank" class="contact-icons"><i class="fab fa-instagram"></i></a>
+                        <p class="contact-cards-p">@pethotel</p>
+                        <a href="" target="_blank" class="contact-icons"><i class="fas fa-map-marker-alt"></i></a>
+                        <p class="contact-cards-p">Strada Academiei 14, București 010014</p>
+                    </div>
+                </div>
+                <div class="col-md-6 contact-margin text-center" data-aos="flip-left">
+                    <div class="contact-cards contact-maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.887633915991!2d26.097499615034334!3d44.4354671095125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff472f47f047%3A0x493984726f0235f9!2sFacultatea%20de%20Matematic%C4%83%20%C8%99i%20Informatic%C4%83%20-%20Universitatea%20din%20Bucure%C8%99ti!5e0!3m2!1sro!2sro!4v1592484438633!5m2!1sro!2sro" width="100%" height="483" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+                <div class="col-12 text-center" data-aos="zoom-in">
+                    <span>
+                        <input type="text" name="" id="culoare4" class="input-schimbat-culoare" placeholder="Alege o culoare..."><br>
+                        <button class="buton-schimbat-culoare mb-5" onclick="schimbaCuloarea4()">Seteaza Culoare Background</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Start Footer -->
+    <section id="footer" class="footer">
+        <div class="container container-footer">
+            <div class="row">
+                <div class="col-md-6 footer-1">
+                    <div>
+                    <p>
+                        Copyright © 2020 PET HOTEL. ALL RIGHTS RESERVED.
+                    </p>
+                    <a href="" class="contact-icons footer-icons"><i class="fas fa-mobile-alt"></i></a>
+                    <a href="" target="_blank" class="contact-icons footer-icons"><i class="fab fa-facebook-f"></i></a>
+                    <a href="" target="_blank" class="contact-icons footer-icons"><i class="fab fa-instagram"></i></a>
+                    <a href="" target="_blank" class="contact-icons"><i class="fas fa-map-marker-alt"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 footer-2">
+                    <ul class="footer-list">
+                        <li class="footer-li"><a href="#acasa" class="footer-item">Acasa</a></li>
+                        <li class="footer-li"><a href="#servicii" class="footer-item">Servicii</a></li>
+                        <li class="footer-li"><a href="#program" class="footer-item">Program</a></li>
+                        <li class="footer-li"><a href="#preturi" class="footer-item">Preturi</a></li>
+                        <li class="footer-li-2"><a href="#contact" class="footer-item">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Footer -->
+
+
+    <!-- JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
+    </script>
+
+    <!-- Nav -->
+    <!-- Navbar -->
+    <script>
+            var gret = function (t, e, l) {
+                    if ("[object Object]" === Object.prototype.toString.call(t))
+                        for (var c in t) Object.prototype.hasOwnProperty.call(t, c) && o.call(l, t[c], c, tipa);
+                    else
+                        for (var r = 0, i = t.length; i > r; r++) e.call(l, t[r], r, t)
+            },
+            mobiles = document.querySelectorAll(".hamb");
+            mobiles.length > 0 && gret(mobiles, function (t) {
+                t.addEventListener("click", function () {
+                    this.classList.toggle("ac")
+                }, !1)
+            });
+            
+            // Hamburger
+            $(".hamb").click(function () {
+                $("nav").toggleClass("active");
+                $("section").toggleClass("active");
+                $("body").toggleClass("hidden");
+                $("#overlay").toggleClass("d-none");
+            });
+            $(".closex").click(function () {
+                $(".hamb").toggleClass("ac");
+            });
+            
+            
+            // Close mobile menu on click
+            $('.navbar-collapse ul li a:not(.dropdown-toggler)').click(function() {
+                            $('.navbar-toggler:visible').click();
+             });
+             
+            
+            $('.owl-carousel').owlCarousel({
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                loop: true,
+                margin: 0,
+                nav: false,
+                dotsEach: true,
+                responsive: {
+                    0: {
+            
+                        items: 1
+                    },
+                    600: {
+            
+                        items: 1
+                    },
+                    1000: {
+            
+                        items: 1
+            
+                    }
+                }
+            });
+            
+             
+            
+            $(".navbar-toggler").click(function () {
+                if ($(window).width() < 768) {
+                    $('body').css({ "pointer-events":"none"});
+                    setTimeout(function(){
+                       // enable click after 1 second
+                       $('body').css({ "pointer-events":"auto"});
+                    },500); // 1 second delay
+                    }
+                });
+            
+            $( ".close-modal" ).click(function() {
+                var section = $(this).attr("href");
+                   $('.modal').modal('hide');
+                    $('html, body').animate({
+                        scrollTop: $(section).offset().top - 54
+                    }, 1250);
+            });
+            
+            
+    </script>
+
+    <!-- Gallery -->
+    <script>
+    $(".gallery").magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      gallery:{
+        enabled: true
+      }
+    });
+  </script>
+</body>
+</html>
